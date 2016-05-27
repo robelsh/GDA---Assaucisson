@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+#index-banner {
+  min-height: 480px;
+  width:100%;
+  padding-top: 100px;
+  height: auto;
+  background: url('../../assets/img/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body{
+  font-family: "Roboto";
+}
