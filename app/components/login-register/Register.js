@@ -2,7 +2,7 @@
 ** Register.js
 **
 ** Composant d'enregistrement d'association.
-** Gère la partie regiistration d'association de l'application
+** Gère la partie enregistrement d'association de l'application
 **
 **/
 
@@ -36,7 +36,7 @@ export class EmailList extends Component {
     let emails = this.props.items.map(function(item) {
       return item['text'];
     });
-    
+
     return(
       <List>
         <TextField

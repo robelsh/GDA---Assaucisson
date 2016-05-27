@@ -1,3 +1,10 @@
+/*
+** Composant de gestion des événements (activités et anniversaires)
+** Nous avons utilisé le package suivant : https://github.com/dptoot/react-event-calendar
+** Démo : http://dptoot.github.io/react-event-calendar/
+*/
+
+//Importation des compsants de Material-UI
 import React, {Component} from "react";
 import EventCalendar from 'react-event-calendar';
 import Dialog from 'material-ui/Dialog';
@@ -11,6 +18,7 @@ import Snackbar from 'material-ui/Snackbar';
 import FlatButton from 'material-ui/FlatButton';
 import moment from 'moment';
 import DatePicker from 'material-ui/DatePicker';
+//On importe le CSS correspondant à Calednar.js
 import './Calendar.css';
 import areIntlLocalesSupported from 'intl-locales-supported';
 import Firebase from 'firebase';
@@ -19,10 +27,11 @@ import {firebaseUtils} from '../../fb/users';
 import Subheader from 'material-ui/Subheader';
 import {List, ListItem} from 'material-ui/List';
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
-
+//initialisation de Firebase pour l'association courante
 var forge = "https://gda.firebaseio.com/association";
 var ref = new Firebase(forge);
 
+//Composant parent du calendrier avec les propriétés liés à l'interval de temps et l'association courante
 export default class Calendar extends Component{
 
   render() {
@@ -31,7 +40,7 @@ export default class Calendar extends Component{
     );
   }
 }
-
+//Validation de la date dans l'input et dans le calendrier
 export function formatDate(date){
   const yyyy = date.getFullYear().toString();
   const mm = (date.getMonth()+1).toString();
@@ -39,7 +48,9 @@ export function formatDate(date){
   return `${yyyy}-${(mm[1]?mm:"0"+mm[0])}-${(dd[1]?dd:"0"+dd[0])}`;
 }
 
+//Sous composant de Calendar permettant d'ajouter des événments
 class Events extends Component{
+  //Mise en palce des états et des propriétés initiales
   constructor(props) {
     super(props);
     this.state = {
@@ -81,6 +92,7 @@ class Events extends Component{
     this.participation = this.participation.bind(this);
     this.handleCloseInfos = this.handleCloseInfos.bind(this);
   }
+  //Génération du PDF avec jspdf (voir Members pour le lien vers la librairie)
   generatePDF(){
     this.setState({
       generating:true,
@@ -96,6 +108,7 @@ class Events extends Component{
       })
     });
   }
+  //Chargement des événements depuis Firebase
   loadEventsFromServer() {
     let events = [];
     let refEvents = ref.child(this.props.eventsAssociation+'/calendar').orderByChild('type').equalTo('event');
@@ -115,7 +128,7 @@ class Events extends Component{
     });
   }
 
-
+  //Chargement des anniversaires depuis Firebase
   loadBirthdayFromServer(){
     let birthdayEvents = [];
     let refBirthday = ref.child(this.props.eventsAssociation+'/calendar').orderByChild('type').equalTo('birthday');
@@ -138,7 +151,7 @@ class Events extends Component{
     });
   }
 
-
+//Changement de State par l'intermédiaire des informations entrées dans les input de la fenêtre modale d'ajout d'événements
   handleStartDateFieldChange(e, date) {
     this.setState({
       startDate:date

@@ -2,7 +2,7 @@
 ** Last-Events.js
 **
 ** Composant des evénements sur le dashboard.
-** Gère la partie futur événement de l'application dans le dashboard
+** Gère la partie "futurs événements" de l'application dans le dashboard
 **
 **/
 
@@ -25,7 +25,7 @@ export default class LastEvents extends Component {
     }
     this.loadEventsFromServer = this.loadEventsFromServer.bind(this);
   }
-
+  //Chargement des événments depuis Firebase
   loadEventsFromServer() {
     let events = [];
     const refEvents = ref.child(this.props.eventsAssociation+'/calendar').orderByKey();
@@ -34,13 +34,13 @@ export default class LastEvents extends Component {
       this.setState({data: events});
     });
   }
-
+  //On recharge les événements s'il y a des modifications de la taille de l'état Data
   componentDidUpdate(prevProps, prevState) {
     if(this.state.data.length!=prevState.data.length){
       this.loadEventsFromServer();
     }
   }
-
+  //On charge les événements une fois le composant chargé
   componentDidMount(){
     this.loadEventsFromServer();
   }
@@ -54,7 +54,7 @@ export default class LastEvents extends Component {
         textAlign:"center"
       }
     }
-    
+
     return (
       <div>
         <Paper zDepth={2} style={style.paperStyle}>

@@ -103,6 +103,7 @@ export default class Groups extends Component{
     });
     this.setState({namesFromGroup:users, namesNotInGroup:usersNotInGroup});
   }
+  //On affiche les fenêtres modales correspondantes aux fonctionnalités (ajout, modification et suppression)
   handleNewGroup(){
     this.setState({openNewGroup:true,mailsChecked:[]});
   }
@@ -133,6 +134,7 @@ export default class Groups extends Component{
   handleCloseEditGroup(e) {
     this.setState({openEdit:false});
   }
+  //Mise en place de la suppression de groupe dans Firebase et dans la liste
   deleteGroup(){
     this.state.items.map((item,i)=>{
       let groupId;
@@ -146,6 +148,7 @@ export default class Groups extends Component{
     });
     this.handleCloseDeleteGroup();
   }
+  //Ajout des mails des utilisateurs appartenant aux groupes dans le champ destinataires
   handleMailGroup(e){
     let mails = [];
     let listGroup=[];
@@ -160,12 +163,14 @@ export default class Groups extends Component{
     });
     this.setState({mails:mails});
   }
+  //Ajout d'un nouveau groupe dans Firebase
   newGroup(){
     this.state.mailsChecked.map((index)=>{
       ref.child(this.props.yourAssociation+"/"+this.state.idFromAssociation+"/email/"+index+"/group/").push(this.state.groupName);
     });
     this.handleCloseNewGroup();
   }
+  //Edition du groupe sélectionné sur Firebase et sur la liste
   editGroup(){
     this.state.namesNotInGroup.map((item,i)=>{
       let groupId;
@@ -193,9 +198,11 @@ export default class Groups extends Component{
     });
     this.handleCloseEditGroup();
   }
+  //On charge les données une fois le composant chargé
   componentDidMount(){
     this.loadUsersAndIdFromAssociation();
   }
+  //On supprime un utilisateur depuis un groupe
   removeFromGroup(e){
     let users = this.state.namesNotInGroup;
     let usersGroup = this.state.namesFromGroup;
@@ -204,6 +211,7 @@ export default class Groups extends Component{
     usersGroup.splice(index,1);
     this.setState({namesFromGroup:usersGroup});
   }
+  //On ajoute un utilisateur dans un groupe
   addToGroup(e){
     let usersGroup = this.state.namesFromGroup;
     let users = this.state.namesNotInGroup;
@@ -212,6 +220,7 @@ export default class Groups extends Component{
     users.splice(index,1);
     this.setState({namesNotInGroup:users,namesFromGroup:usersGroup});
   }
+  //Dans l'édition de groupe, on passe d'un tableau "dans le groupe" à l'autre "pas dans le groupe"
   checkItem(e){
     if(this.state.mailsChecked.indexOf(e) >= 0){
       this.state.mailsChecked.splice(this.state.mailsChecked.indexOf(e),1);
@@ -223,6 +232,7 @@ export default class Groups extends Component{
     const style= {
       marginTop:"64px",
     }
+    //Différents boutons d'actions pour les fenêtres modales
     const actionsNewGroup = [
       <RaisedButton
         label="Valider"
@@ -259,6 +269,7 @@ export default class Groups extends Component{
         onTouchTap={this.handleCloseEditGroup}
         />,
     ];
+    //Connexion avec l'amazon S3
     const linkToS3 ="https://assaucisson.s3-us-west-2.amazonaws.com/";
     return (
       <div className="grid grid-pad">

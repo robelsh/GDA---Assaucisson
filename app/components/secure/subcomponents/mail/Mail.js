@@ -1,3 +1,8 @@
+/*
+** Composant Mail utilisé dans la gestion des membres et des groupes
+**
+*/
+//Implémentation des composants de Material-UI et de firebaseUtils
 import {firebaseUtils} from '../../../../fb/users';
 import Snackbar from 'material-ui/Snackbar';
 import Paper from 'material-ui/Paper';
@@ -6,6 +11,7 @@ import React, {Component} from 'react';
 import TextField from 'material-ui/TextField';
 
 export default class Mail extends Component {
+  //Mise en place des états et des propriétés initiales
   constructor(props) {
     super(props);
     this.state={
@@ -33,6 +39,7 @@ export default class Mail extends Component {
       subject:e.target.value,
     });
   }
+  //Une fois envoyé, on renvoie l'utilisateur vers le dashboard
   handleSubmit(e){
     e.preventDefault()
     if(this.props.mails[0] && this.state.text && this.state.subject){

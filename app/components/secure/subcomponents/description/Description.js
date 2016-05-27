@@ -18,6 +18,7 @@ var ref = new Firebase(forge);
 import RaisedButton from 'material-ui/RaisedButton';
 
 export default class Description extends Component {
+  //Mise en place des propriétés initiales et des états
   constructor(props) {
     super(props);
     this.state={
@@ -29,7 +30,7 @@ export default class Description extends Component {
     this.handleDisplay = this.handleDisplay.bind(this);
     this.handleEditDescription = this.handleEditDescription.bind(this);
   }
-
+  //Chargement de l'association courante depuis Firebase
   loadAssociationFromServer() {
     let desc=[];
     let id=[];
@@ -41,7 +42,7 @@ export default class Description extends Component {
       this.setState({data: desc,id : id});
     });
   }
-
+ //Une fois le composant chargé, on charge l'association courante depuis le serveur
   componentDidMount() {
     this.loadAssociationFromServer();
   }
