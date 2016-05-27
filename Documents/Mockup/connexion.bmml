@@ -1,0 +1,66 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1800" measuredH="839" mockupW="1280" mockupH="800">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="520" y="39" w="1280" h="800" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="520" y="141" w="1280" h="46" measuredW="1150" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hrefs>Accueil%26bm%3BAccueil.bmml%26bm%3BAccueil.bmml%26bm%3BAccueil.bmml%2Cpresentation%26bm%3Bpresentation.bmml%26bm%3Bpresentation.bmml%26bm%3Bpresentation.bmml%2Cinscription%26bm%3Binscription.bmml%26bm%3Binscription.bmml%26bm%3Binscription.bmml%2Cconnexion%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2218%2C120.5%2C886%2C133.5%22%20href%3D%22Accueil.bmml%22%20alt%3D%22Accueil%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22895%2C120.5%2C981%2C133.5%22%20href%3D%22presentation.bmml%22%20alt%3D%22presentation%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22990%2C120.5%2C1061%2C133.5%22%20href%3D%22inscription.bmml%22%20alt%3D%22inscription%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221070%2C120.5%2C1141%2C133.5%22%20href%3D%22connexion.bmml%22%20alt%3D%22connexion%22%20id%3D%221%22/%3E</map>
+        <text>%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09Accueil%2C%20Pr%E9sentation%2C%20Inscription%2C%20Connexion</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="568" y="125" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ModalScreen" x="935" y="285" w="450" h="418" measuredW="320" measuredH="240" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="1169" y="547" w="168" h="-1" measuredW="75" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>**********</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="1169" y="481" w="169" h="-1" measuredW="70" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>identfiant</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SubTitle" x="999" y="481" w="-1" h="-1" measuredW="111" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Identifiant</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="999" y="547" w="-1" h="-1" measuredW="149" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mot%20de%20passe</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Title" x="1065" y="394" w="-1" h="-1" measuredW="190" measuredH="43" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Connexion</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::PointyButton" x="1110" y="609" w="-1" h="-1" measuredW="211" measuredH="35" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6989903</color>
+        <href>dashboard%26bm%3Bdashboard.bmml%26bm%3Bdashboard.bmml%26bm%3Bdashboard.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22590%2C570%2C801%2C605%22%20href%3D%22dashboard.bmml%22%20alt%3D%22dashboard%22%20id%3D%229%22/%3E</map>
+        <size>28</size>
+        <text>Valider%20%28admin%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::PointyButton" x="1110" y="659" w="-1" h="-1" measuredW="192" measuredH="35" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6989903</color>
+        <href>dashboarduser%26bm%3Bdashboarduser.bmml%26bm%3Bdashboarduser.bmml%26bm%3Bdashboarduser.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22590%2C620%2C782%2C655%22%20href%3D%22dashboarduser.bmml%22%20alt%3D%22dashboarduser%22%20id%3D%2210%22/%3E</map>
+        <size>28</size>
+        <text>Valider%20%28user%29</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

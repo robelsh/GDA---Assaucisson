@@ -1,0 +1,74 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1800" measuredH="839" mockupW="1280" mockupH="800">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="520" y="39" w="1280" h="800" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="520" y="141" w="1280" h="46" measuredW="1150" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Accueil%26bm%3BAccueil.bmml%26bm%3BAccueil.bmml%26bm%3BAccueil.bmml%2Cpresentation%26bm%3Bpresentation.bmml%26bm%3Bpresentation.bmml%26bm%3Bpresentation.bmml%2Cinscription%26bm%3Binscription.bmml%26bm%3Binscription.bmml%26bm%3Binscription.bmml%2Cconnexion%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2218%2C120.5%2C886%2C133.5%22%20href%3D%22Accueil.bmml%22%20alt%3D%22Accueil%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22895%2C120.5%2C981%2C133.5%22%20href%3D%22presentation.bmml%22%20alt%3D%22presentation%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22990%2C120.5%2C1061%2C133.5%22%20href%3D%22inscription.bmml%22%20alt%3D%22inscription%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221070%2C120.5%2C1141%2C133.5%22%20href%3D%22connexion.bmml%22%20alt%3D%22connexion%22%20id%3D%221%22/%3E</map>
+        <text>%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09Accueil%2C%20Pr%E9sentation%2C%20Inscription%2C%20Connexion</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="796" y="212" w="729" h="529" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7317724</color>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="568" y="125" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="954" y="365" w="-1" h="-1" measuredW="163" measuredH="26" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Nomde%20l%27association</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="954" y="416" w="-1" h="-1" measuredW="269" measuredH="26" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Date%20de%20cr%E9ation%20de%20l%27association</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::ComboBox" x="1284" y="416" w="-1" h="-1" measuredW="36" measuredH="109" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1%0A2%0A3%0A4%0A5%0A...</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::ComboBox" x="1334" y="416" w="-1" h="-1" measuredW="74" measuredH="124" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Janvier%0AF%E9vrier%0AMars%0AAvril%0AMai%0AJuin%0A...</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::ComboBox" x="1423" y="416" w="-1" h="-1" measuredW="60" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2016%0A2015%0A2014%0A2013%0A2011%0A...%0A1910%0A1909</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="1230" y="363" w="253" h="-1" measuredW="158" measuredH="30" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Les%20amis%20des%20fleurs</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Title" x="999" y="265" w="306" h="-1" measuredW="191" measuredH="43" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <text>Inscription</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::PointyButton" x="1088" y="668" w="-1" h="-1" measuredW="159" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <href>inscriptionp3%26bm%3Binscriptionp3.bmml%26bm%3Binscriptionp3.bmml%26bm%3Binscriptionp3.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22568%2C629%2C727%2C656%22%20href%3D%22inscriptionp3.bmml%22%20alt%3D%22inscriptionp3%22%20id%3D%2215%22/%3E</map>
+        <size>16</size>
+        <text>Etape%20suivante%202/3</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

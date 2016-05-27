@@ -1,0 +1,69 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1800" measuredH="839" mockupW="1280" mockupH="800">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="520" y="39" w="1280" h="800" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="520" y="141" w="1280" h="46" measuredW="1150" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Accueil%26bm%3BAccueil.bmml%26bm%3BAccueil.bmml%26bm%3BAccueil.bmml%2Cpresentation%26bm%3Bpresentation.bmml%26bm%3Bpresentation.bmml%26bm%3Bpresentation.bmml%2Cinscription%26bm%3Binscription.bmml%26bm%3Binscription.bmml%26bm%3Binscription.bmml%2Cconnexion%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml%26bm%3Bconnexion.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2218%2C120.5%2C886%2C133.5%22%20href%3D%22Accueil.bmml%22%20alt%3D%22Accueil%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22895%2C120.5%2C981%2C133.5%22%20href%3D%22presentation.bmml%22%20alt%3D%22presentation%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22990%2C120.5%2C1061%2C133.5%22%20href%3D%22inscription.bmml%22%20alt%3D%22inscription%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221070%2C120.5%2C1141%2C133.5%22%20href%3D%22connexion.bmml%22%20alt%3D%22connexion%22%20id%3D%221%22/%3E</map>
+        <text>%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09Accueil%2C%20Pr%E9sentation%2C%20Inscription%2C%20Connexion</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="796" y="212" w="729" h="529" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7317724</color>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="568" y="125" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="999" y="265" w="306" h="-1" measuredW="191" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <text>Inscription</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::PointyButton" x="1088" y="668" w="-1" h="-1" measuredW="195" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <href>dashboard%26bm%3Bdashboard.bmml%26bm%3Bdashboard.bmml%26bm%3Bdashboard.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22568%2C629%2C763%2C656%22%20href%3D%22dashboard.bmml%22%20alt%3D%22dashboard%22%20id%3D%225%22/%3E</map>
+        <size>16</size>
+        <text>Achever%20l%27inscription%203/3</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SubTitle" x="898" y="356" w="-1" h="-1" measuredW="270" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>mathieu.gauthier@isen.fr</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="898" y="383" w="-1" h="-1" measuredW="182" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>iron.man@isen.fr</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="898" y="450" w="226" h="-1" measuredW="79" measuredH="26" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::PointyButton" x="1149" y="450" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>472931</color>
+        <size>18</size>
+        <text>Inviter</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="898" y="410" w="-1" h="-1" measuredW="268" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>etienne.jezequel@isen.fr</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
